@@ -1,0 +1,4 @@
+2021-10-29 15:52:51 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-10-29 15:52:52 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-10-29 15:52:55 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-10-29 15:52:56 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...

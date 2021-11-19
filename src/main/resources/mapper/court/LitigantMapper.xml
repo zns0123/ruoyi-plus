@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.ptnetwork.court.mapper.LitigantMapper">
+
+    <select id="ShowLitigant" parameterType="net.ptnetwork.court.domain.Litigant" resultType="net.ptnetwork.court.domain.Litigant">
+        select * from ct_litigant where case_no = #{caseNo};
+    </select>
+
+    <resultMap type="net.ptnetwork.court.domain.Litigant" id="LitigantResult">
+        <result property="id" column="id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="caseNo" column="case_no"/>
+        <result property="judge" column="judge"/>
+        <result property="name" column="name"/>
+        <result property="legalStatus" column="legal_status"/>
+        <result property="type" column="type"/>
+        <result property="address" column="address"/>
+        <result property="phone" column="phone"/>
+        <result property="sex" column="sex"/>
+        <result property="birthday" column="birthday"/>
+        <result property="area" column="area"/>
+        <result property="nation" column="nation"/>
+        <result property="education" column="education"/>
+        <result property="job" column="job"/>
+        <result property="idCardType" column="id_card_type"/>
+        <result property="idCard" column="id_card"/>
+        <result property="postalCode" column="postal_code"/>
+        <result property="company" column="company"/>
+        <result property="unitProperties" column="unit_properties"/>
+        <result property="legalMan" column="legal_man"/>
+        <result property="legalCardType" column="legal_card_type"/>
+        <result property="legalCard" column="legal_card"/>
+        <result property="politicalStatus" column="political_status"/>
+        <result property="sendAddress" column="send_address"/>
+        <result property="field1" column="field1"/>
+        <result property="field2" column="field2"/>
+    </resultMap>
+
+
+</mapper>

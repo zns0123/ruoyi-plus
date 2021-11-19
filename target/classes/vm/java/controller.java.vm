@@ -1,0 +1,25 @@
+package ${packageName}.controller;
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+import net.ptnetwork.common.core.controller.BaseController;
+import ${packageName}.service.I${ClassName}Service;
+import io.swagger.annotations.Api;
+
+/**
+ * ${functionName}Controller
+ * 
+ * @author ${author}
+ * @date ${datetime}
+ */
+@Api(value = "${functionName}控制器", tags = {"${functionName}管理"})
+@RequiredArgsConstructor(onConstructor_ = @Autowired)
+@RestController
+@RequestMapping("/${moduleName}/${businessName}")
+public class ${ClassName}Controller extends BaseController {
+
+    private final I${ClassName}Service i${ClassName}Service;
+
+
+}

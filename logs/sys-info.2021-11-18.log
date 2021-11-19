@@ -1,0 +1,920 @@
+2021-11-18 10:10:39 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 10:10:39 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 10:10:42 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 10:10:44 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-18 10:25:23 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 10:25:24 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 10:25:26 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 10:25:30 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 10:25:30 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 10:25:30 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 10:25:31 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 10:25:31 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 10:25:31 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 10:25:31 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637202331184'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 10:25:31 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 10:25:31 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 10:25:31 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@b1f36e5
+2021-11-18 10:25:33 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 10:25:33 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 10:25:33 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 10:25:35 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 10:25:35 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 10:25:35 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 10:25:35 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 10:25:35 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 10:25:35 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 10:25:35 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.495 seconds (JVM running for 14.347)
+2021-11-18 10:25:36 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 10:25:36 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 10:25:36 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202331184 started.
+2021-11-18 10:25:52 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202331184 paused.
+2021-11-18 10:25:54 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202331184 shutting down.
+2021-11-18 10:25:54 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202331184 paused.
+2021-11-18 10:25:54 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202331184 shutdown complete.
+2021-11-18 10:25:54 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 10:25:54 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 10:25:54 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 10:25:54 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 10:25:54 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 10:26:01 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 10:26:02 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 10:26:04 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 10:26:07 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 10:26:08 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 10:26:08 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 10:26:08 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 10:26:08 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 10:26:08 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 10:26:08 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637202368560'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 10:26:08 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 10:26:08 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 10:26:08 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3f1d4ecf
+2021-11-18 10:26:10 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 10:26:10 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 10:26:10 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 10:26:12 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 10:26:12 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 10:26:12 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 10:26:12 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 10:26:12 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 10:26:12 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 10:26:12 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 11.774 seconds (JVM running for 13.583)
+2021-11-18 10:26:12 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 10:26:13 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 10:26:13 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202368560 started.
+2021-11-18 10:29:18 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202368560 paused.
+2021-11-18 10:29:20 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202368560 shutting down.
+2021-11-18 10:29:20 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202368560 paused.
+2021-11-18 10:29:20 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202368560 shutdown complete.
+2021-11-18 10:29:20 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 10:29:20 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 10:29:20 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 10:29:21 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 10:29:21 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 10:29:28 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 10:29:29 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 10:29:31 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 10:29:35 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 10:29:36 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 10:29:36 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 10:29:36 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 10:29:36 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 10:29:36 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 10:29:36 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637202576835'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 10:29:36 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 10:29:36 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 10:29:36 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3c62c81f
+2021-11-18 10:29:39 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 10:29:39 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 10:29:39 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 10:29:40 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 10:29:40 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 10:29:40 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 10:29:40 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 10:29:40 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 10:29:40 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 10:29:41 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 13.052 seconds (JVM running for 14.584)
+2021-11-18 10:29:41 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 10:29:41 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 10:29:41 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202576835 started.
+2021-11-18 10:31:00 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202576835 paused.
+2021-11-18 10:31:02 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202576835 shutting down.
+2021-11-18 10:31:02 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202576835 paused.
+2021-11-18 10:31:02 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202576835 shutdown complete.
+2021-11-18 10:31:02 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 10:31:02 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 10:31:02 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 10:31:02 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 10:31:02 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 10:31:08 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 10:31:08 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 10:31:11 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 10:31:14 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 10:31:14 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 10:31:14 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 10:31:15 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 10:31:15 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 10:31:15 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 10:31:15 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637202675372'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 10:31:15 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 10:31:15 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 10:31:15 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1f27f354
+2021-11-18 10:31:17 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 10:31:17 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 10:31:17 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 10:31:19 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 10:31:19 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 10:31:19 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 10:31:19 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 10:31:19 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 10:31:19 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 10:31:19 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.103 seconds (JVM running for 13.783)
+2021-11-18 10:31:19 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 10:31:20 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 10:31:20 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202675372 started.
+2021-11-18 10:33:10 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202675372 paused.
+2021-11-18 10:33:12 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202675372 shutting down.
+2021-11-18 10:33:12 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202675372 paused.
+2021-11-18 10:33:12 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202675372 shutdown complete.
+2021-11-18 10:33:12 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 10:33:12 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 10:33:12 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 10:33:13 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 10:33:13 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 10:33:23 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 10:33:23 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 10:33:26 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 10:33:29 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 10:33:29 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 10:33:29 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 10:33:30 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 10:33:30 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 10:33:30 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 10:33:30 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637202810103'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 10:33:30 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 10:33:30 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 10:33:30 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@2c257c0a
+2021-11-18 10:33:32 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 10:33:32 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 10:33:32 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 10:33:34 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 10:33:34 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 10:33:34 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 10:33:34 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 10:33:34 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 10:33:34 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 10:33:34 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.058 seconds (JVM running for 13.357)
+2021-11-18 10:33:34 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 10:33:35 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 10:33:35 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202810103 started.
+2021-11-18 10:39:43 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202810103 paused.
+2021-11-18 10:39:45 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202810103 shutting down.
+2021-11-18 10:39:45 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202810103 paused.
+2021-11-18 10:39:45 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637202810103 shutdown complete.
+2021-11-18 10:39:45 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 10:39:45 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 10:39:45 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 10:39:45 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 10:39:45 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 10:39:53 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 10:39:54 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 10:39:56 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 10:39:59 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 10:40:00 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 10:40:00 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 10:40:00 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 10:40:00 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 10:40:00 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 10:40:00 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637203200760'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 10:40:00 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 10:40:00 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 10:40:00 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@6b6fde93
+2021-11-18 10:40:03 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 10:40:03 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 10:40:03 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 10:40:04 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 10:40:04 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 10:40:04 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 10:40:04 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 10:40:04 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 10:40:05 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 10:40:05 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.203 seconds (JVM running for 13.639)
+2021-11-18 10:40:05 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 10:40:05 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 10:40:06 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637203200760 started.
+2021-11-18 11:07:17 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637203200760 paused.
+2021-11-18 11:07:19 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637203200760 shutting down.
+2021-11-18 11:07:19 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637203200760 paused.
+2021-11-18 11:07:19 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637203200760 shutdown complete.
+2021-11-18 11:07:19 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 11:07:19 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 11:07:19 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 11:07:20 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 11:07:20 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 11:07:29 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 11:07:30 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 11:07:36 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 11:07:39 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 11:07:40 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 11:07:40 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 11:07:40 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 11:07:40 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 11:07:48 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 11:07:48 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 11:07:51 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 11:07:54 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 11:07:55 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 11:07:55 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 11:07:55 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 11:07:55 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 11:07:55 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 11:07:55 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637204875696'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 11:07:55 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 11:07:55 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 11:07:55 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@ad6448e
+2021-11-18 11:07:58 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 11:07:58 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 11:07:58 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 11:07:59 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 11:07:59 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 11:07:59 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 11:07:59 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 11:07:59 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 11:07:59 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 11:08:00 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.405 seconds (JVM running for 13.69)
+2021-11-18 11:08:00 [RMI TCP Connection(3)-192.168.87.232] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 11:08:00 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 11:08:01 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637204875696 started.
+2021-11-18 11:08:51 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637204875696 paused.
+2021-11-18 11:08:53 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637204875696 shutting down.
+2021-11-18 11:08:53 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637204875696 paused.
+2021-11-18 11:08:53 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637204875696 shutdown complete.
+2021-11-18 11:08:53 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 11:08:53 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 11:08:53 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 11:08:53 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 11:08:53 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 11:08:58 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 11:08:59 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 11:09:01 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 11:09:04 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 11:09:05 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 11:09:05 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 11:09:05 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 11:09:05 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 11:09:05 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 11:09:05 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637204945954'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 11:09:05 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 11:09:05 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 11:09:05 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@6a0aa5e2
+2021-11-18 11:09:08 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 11:09:08 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 11:09:08 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 11:09:09 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 11:09:09 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 11:09:09 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 11:09:10 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 11:09:10 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 11:09:10 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 11:09:10 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.407 seconds (JVM running for 14.018)
+2021-11-18 11:09:10 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 11:09:10 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 11:09:11 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637204945954 started.
+2021-11-18 11:19:02 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637204945954 paused.
+2021-11-18 11:19:04 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637204945954 shutting down.
+2021-11-18 11:19:04 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637204945954 paused.
+2021-11-18 11:19:04 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637204945954 shutdown complete.
+2021-11-18 11:19:04 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 11:19:04 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 11:19:04 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 11:19:04 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 11:19:04 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 11:19:12 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 11:19:12 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 11:19:15 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 11:19:18 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 11:19:19 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 11:19:19 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 11:19:19 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 11:19:19 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 11:19:19 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 11:19:19 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637205559527'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 11:19:19 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 11:19:19 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 11:19:19 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@4e0139
+2021-11-18 11:19:21 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 11:19:21 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 11:19:21 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 11:19:23 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 11:19:23 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 11:19:23 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 11:19:23 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 11:19:23 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 11:19:23 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 11:19:23 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 11.949 seconds (JVM running for 13.327)
+2021-11-18 11:19:23 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 11:19:24 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 11:19:24 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637205559527 started.
+2021-11-18 11:40:57 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637205559527 paused.
+2021-11-18 11:40:59 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637205559527 shutting down.
+2021-11-18 11:40:59 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637205559527 paused.
+2021-11-18 11:40:59 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637205559527 shutdown complete.
+2021-11-18 11:40:59 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 11:40:59 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 11:40:59 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 11:41:00 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 11:41:00 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 11:41:11 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 11:41:12 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 11:41:15 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 11:41:18 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 11:41:18 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 11:41:18 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 11:41:19 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 11:41:19 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 11:41:19 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 11:41:19 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637206879485'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 11:41:19 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 11:41:19 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 11:41:19 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@76ebd595
+2021-11-18 11:41:20 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637206879485 shutting down.
+2021-11-18 11:41:20 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637206879485 paused.
+2021-11-18 11:41:20 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637206879485 shutdown complete.
+2021-11-18 11:41:20 [main] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 11:41:20 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 11:41:20 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 11:42:03 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 11:42:03 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 11:42:06 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 11:42:09 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 11:42:10 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 11:42:10 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 11:42:10 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 11:42:10 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 11:42:10 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 11:42:10 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637206930525'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 11:42:10 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 11:42:10 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 11:42:10 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@7e24a2e2
+2021-11-18 11:42:12 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 11:42:12 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 11:42:12 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 11:42:14 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 11:42:14 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 11:42:14 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 11:42:14 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 11:42:14 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 11:42:14 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 11:42:14 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.351 seconds (JVM running for 13.842)
+2021-11-18 11:42:15 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 11:42:15 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 11:42:15 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637206930525 started.
+2021-11-18 11:43:52 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637206930525 paused.
+2021-11-18 11:43:54 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637206930525 shutting down.
+2021-11-18 11:43:54 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637206930525 paused.
+2021-11-18 11:43:54 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637206930525 shutdown complete.
+2021-11-18 11:43:54 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 11:43:54 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 11:43:54 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 11:43:54 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 11:43:54 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 11:44:02 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 11:44:02 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 11:44:05 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 11:44:08 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 11:44:09 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 11:44:09 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 11:44:10 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 11:44:11 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 11:44:11 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 11:44:11 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637207050960'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 11:44:11 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 11:44:11 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 11:44:11 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@66d73e2d
+2021-11-18 11:44:13 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 11:44:13 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 11:44:13 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 11:44:14 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 11:44:14 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 11:44:15 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 11:44:15 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 11:44:15 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 11:44:15 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 11:44:15 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 14.081 seconds (JVM running for 15.494)
+2021-11-18 11:44:15 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 11:44:16 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 11:44:16 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637207050960 started.
+2021-11-18 11:44:21 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637207050960 paused.
+2021-11-18 11:44:23 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637207050960 shutting down.
+2021-11-18 11:44:23 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637207050960 paused.
+2021-11-18 11:44:23 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637207050960 shutdown complete.
+2021-11-18 11:44:23 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 11:44:23 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 11:44:23 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 11:44:24 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 11:44:24 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 11:44:29 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 11:44:30 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 11:44:32 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 11:44:36 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 11:44:36 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 11:44:36 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 11:44:37 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 11:44:37 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 11:44:37 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 11:44:37 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637207077298'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 11:44:37 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 11:44:37 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 11:44:37 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@256aabbe
+2021-11-18 11:44:39 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 11:44:39 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 11:44:39 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 11:44:41 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 11:44:41 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 11:44:41 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 11:44:41 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 11:44:41 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 11:44:41 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 11:44:41 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.749 seconds (JVM running for 14.404)
+2021-11-18 11:44:41 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 11:44:42 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 11:44:42 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637207077298 started.
+2021-11-18 15:13:19 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637207077298 paused.
+2021-11-18 15:13:21 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637207077298 shutting down.
+2021-11-18 15:13:21 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637207077298 paused.
+2021-11-18 15:13:21 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637207077298 shutdown complete.
+2021-11-18 15:13:21 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 15:13:21 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 15:13:21 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 15:13:21 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 15:13:21 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 15:13:29 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 15:13:30 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 15:13:32 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 15:13:36 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 15:13:36 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 15:13:36 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 15:13:37 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 15:13:37 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 15:13:37 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 15:13:37 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637219617179'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 15:13:37 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 15:13:37 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 15:13:37 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@40b958c5
+2021-11-18 15:13:39 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 15:13:39 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 15:13:39 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 15:13:41 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 15:13:41 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 15:13:41 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 15:13:41 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 15:13:41 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 15:13:41 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 15:13:41 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.494 seconds (JVM running for 13.812)
+2021-11-18 15:13:41 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 15:13:42 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 15:13:42 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637219617179 started.
+2021-11-18 15:18:45 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637219617179 paused.
+2021-11-18 15:18:48 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637219617179 shutting down.
+2021-11-18 15:18:48 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637219617179 paused.
+2021-11-18 15:18:48 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637219617179 shutdown complete.
+2021-11-18 15:18:48 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 15:18:48 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 15:18:48 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 15:18:48 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 15:18:48 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 15:18:56 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 15:18:57 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 15:18:59 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 15:19:03 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 15:19:03 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 15:19:03 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 15:19:04 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 15:19:04 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 15:19:04 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 15:19:04 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637219944172'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 15:19:04 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 15:19:04 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 15:19:04 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@748fa354
+2021-11-18 15:19:06 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 15:19:06 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 15:19:06 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 15:19:08 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 15:19:08 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 15:19:08 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 15:19:08 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 15:19:08 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 15:19:08 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 15:19:08 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.564 seconds (JVM running for 14.059)
+2021-11-18 15:19:08 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 15:19:08 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 15:19:09 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637219944172 started.
+2021-11-18 16:01:41 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637219944172 paused.
+2021-11-18 16:01:43 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637219944172 shutting down.
+2021-11-18 16:01:43 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637219944172 paused.
+2021-11-18 16:01:43 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637219944172 shutdown complete.
+2021-11-18 16:01:43 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 16:01:43 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 16:01:43 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 16:01:43 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 16:01:43 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 16:01:52 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 16:01:53 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 16:01:55 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 16:01:58 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 16:01:59 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 16:01:59 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 16:01:59 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 16:01:59 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 16:01:59 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 16:02:00 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637222519989'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 16:02:00 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 16:02:00 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 16:02:00 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@62376bdd
+2021-11-18 16:02:03 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 16:02:03 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 16:02:03 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 16:02:05 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 16:02:05 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 16:02:06 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 16:02:06 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 16:02:06 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 16:02:06 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 16:02:06 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 14.444 seconds (JVM running for 15.668)
+2021-11-18 16:02:06 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 16:02:07 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 16:02:07 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637222519989 started.
+2021-11-18 16:27:53 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637222519989 paused.
+2021-11-18 16:27:55 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637222519989 shutting down.
+2021-11-18 16:27:55 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637222519989 paused.
+2021-11-18 16:27:55 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637222519989 shutdown complete.
+2021-11-18 16:27:55 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 16:27:55 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 16:27:55 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 16:27:55 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 16:27:55 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 16:28:03 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 16:28:04 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 16:28:06 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 16:28:10 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 16:28:10 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 16:28:10 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 16:28:11 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 16:28:11 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 16:28:11 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 16:28:11 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637224091037'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 16:28:11 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 16:28:11 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 16:28:11 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@445c693
+2021-11-18 16:28:13 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 16:28:13 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 16:28:13 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 16:28:16 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 16:28:16 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 16:28:17 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 16:28:17 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 16:28:17 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 16:28:17 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 16:28:17 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 14.146 seconds (JVM running for 15.241)
+2021-11-18 16:28:17 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 16:28:17 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 16:28:18 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224091037 started.
+2021-11-18 16:40:53 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224091037 paused.
+2021-11-18 16:40:55 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224091037 shutting down.
+2021-11-18 16:40:55 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224091037 paused.
+2021-11-18 16:40:55 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224091037 shutdown complete.
+2021-11-18 16:40:55 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 16:40:55 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 16:40:55 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 16:40:55 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 16:40:55 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 16:41:04 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 16:41:05 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 16:41:07 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 16:41:10 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 16:41:11 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 16:41:11 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 16:41:11 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 16:41:11 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 16:41:11 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 16:41:11 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637224871599'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 16:41:11 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 16:41:11 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 16:41:11 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@37b44e8e
+2021-11-18 16:41:13 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 16:41:13 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 16:41:13 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 16:41:15 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 16:41:15 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 16:41:15 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 16:41:15 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 16:41:15 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 16:41:15 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 16:41:15 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.022 seconds (JVM running for 13.556)
+2021-11-18 16:41:16 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 16:41:16 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 16:41:16 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224871599 started.
+2021-11-18 16:42:21 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224871599 paused.
+2021-11-18 16:42:24 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224871599 shutting down.
+2021-11-18 16:42:24 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224871599 paused.
+2021-11-18 16:42:24 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224871599 shutdown complete.
+2021-11-18 16:42:24 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 16:42:24 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 16:42:24 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 16:42:24 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 16:42:24 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 16:42:31 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 16:42:32 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 16:42:34 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 16:42:38 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 16:42:38 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 16:42:38 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 16:42:39 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 16:42:39 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 16:42:39 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 16:42:39 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637224959060'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 16:42:39 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 16:42:39 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 16:42:39 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@99f75e4
+2021-11-18 16:42:41 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 16:42:41 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 16:42:41 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 16:42:43 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 16:42:43 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 16:42:43 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 16:42:43 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 16:42:43 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 16:42:43 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 16:42:43 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.396 seconds (JVM running for 13.685)
+2021-11-18 16:42:43 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 16:42:44 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 16:42:44 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224959060 started.
+2021-11-18 16:57:07 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224959060 paused.
+2021-11-18 16:57:09 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224959060 shutting down.
+2021-11-18 16:57:09 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224959060 paused.
+2021-11-18 16:57:09 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637224959060 shutdown complete.
+2021-11-18 16:57:09 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 16:57:09 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 16:57:09 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 16:57:09 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 16:57:09 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 16:57:17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 16:57:18 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 16:57:21 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 16:57:24 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 16:57:24 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 16:57:24 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 16:57:25 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 16:57:25 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 16:57:25 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 16:57:25 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637225845146'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 16:57:25 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 16:57:25 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 16:57:25 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3fc2a1d1
+2021-11-18 16:57:27 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 16:57:27 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 16:57:27 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 16:57:29 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 16:57:29 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 16:57:29 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 16:57:29 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 16:57:29 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 16:57:29 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 16:57:29 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.241 seconds (JVM running for 13.482)
+2021-11-18 16:57:29 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 16:57:30 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 16:57:30 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637225845146 started.
+2021-11-18 17:20:40 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637225845146 paused.
+2021-11-18 17:20:42 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637225845146 shutting down.
+2021-11-18 17:20:42 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637225845146 paused.
+2021-11-18 17:20:42 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637225845146 shutdown complete.
+2021-11-18 17:20:42 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 17:20:42 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 17:20:42 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 17:20:42 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 17:20:42 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 17:20:51 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 17:20:51 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 17:20:54 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 17:20:57 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 17:20:57 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 17:20:57 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 17:20:58 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 17:20:58 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 17:20:58 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 17:20:58 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637227258289'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 17:20:58 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 17:20:58 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 17:20:58 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1c15a6aa
+2021-11-18 17:21:01 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 17:21:01 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 17:21:01 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 17:21:02 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 17:21:02 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 17:21:02 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 17:21:03 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 17:21:03 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 17:21:03 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 17:21:03 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.781 seconds (JVM running for 14.184)
+2021-11-18 17:21:03 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 17:21:03 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 17:21:04 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637227258289 started.
+2021-11-18 17:26:15 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637227258289 paused.
+2021-11-18 17:26:17 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637227258289 shutting down.
+2021-11-18 17:26:17 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637227258289 paused.
+2021-11-18 17:26:17 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637227258289 shutdown complete.
+2021-11-18 17:26:17 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 17:26:17 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 17:26:17 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 17:26:17 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 17:26:17 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
+2021-11-18 17:26:26 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-18 17:26:26 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-18 17:26:29 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-18 17:26:32 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-18 17:26:33 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-18 17:26:33 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-18 17:26:33 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-18 17:26:33 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-18 17:26:33 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-18 17:26:33 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1637227593532'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-18 17:26:33 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-18 17:26:33 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-18 17:26:33 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@70b0dc92
+2021-11-18 17:26:35 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-18 17:26:35 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 17:26:35 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-18 17:26:37 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-18 17:26:37 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-18 17:26:37 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-18 17:26:37 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-18 17:26:37 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-18 17:26:37 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-18 17:26:37 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 12.27 seconds (JVM running for 13.4)
+2021-11-18 17:26:38 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 17:26:38 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-18 17:26:38 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637227593532 started.
+2021-11-18 17:39:57 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637227593532 paused.
+2021-11-18 17:39:59 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637227593532 shutting down.
+2021-11-18 17:39:59 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637227593532 paused.
+2021-11-18 17:39:59 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1637227593532 shutdown complete.
+2021-11-18 17:39:59 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-18 17:39:59 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-18 17:39:59 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-18 17:40:00 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-18 17:40:00 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final

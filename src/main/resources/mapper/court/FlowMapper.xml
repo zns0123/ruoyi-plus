@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.ptnetwork.court.mapper.FlowMapper">
+
+    <select id="GetFlow" parameterType="net.ptnetwork.court.domain.Flow" resultType="net.ptnetwork.court.domain.Flow">
+        select * from ct_flow;
+    </select>
+
+    <resultMap type="net.ptnetwork.court.domain.Flow" id="FlowResult">
+        <result property="id" column="id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="handler" column="handler"/>
+        <result property="operationTime" column="operation_time"/>
+        <result property="operationDescription" column="operation_description"/>
+        <result property="field1" column="field1"/>
+        <result property="field2" column="field2"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,7 @@
+2021-11-15 08:57:38 [main] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-15 09:01:00 [main] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-15 09:04:23 [main] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-15 14:02:02 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-15 14:12:03 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-15 15:56:39 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-15 17:35:23 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====

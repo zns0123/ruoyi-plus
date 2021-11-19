@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.ptnetwork.court.mapper.UnitMapper">
+
+    <select id="UnitLogin" parameterType="net.ptnetwork.court.domain.Unit" resultType="net.ptnetwork.court.domain.Unit">
+        select * from ct_unit where account = #{account} and password = #{password};
+    </select>
+
+    <select id="GetUnit" parameterType="net.ptnetwork.court.domain.Unit" resultType="net.ptnetwork.court.domain.Unit">
+        select * from ct_unit where unit_name = #{unitName};
+    </select>
+
+    <resultMap type="net.ptnetwork.court.domain.Unit" id="UnitResult">
+        <result property="id" column="id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="unitName" column="unit_name"/>
+        <result property="contactPerson" column="contact_person"/>
+        <result property="contactWay" column="contact_way"/>
+        <result property="account" column="account"/>
+        <result property="password" column="password"/>
+        <result property="field1" column="field1"/>
+        <result property="field2" column="field2"/>
+    </resultMap>
+
+</mapper>

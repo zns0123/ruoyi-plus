@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.ptnetwork.court.mapper.LawCaseMapper">
+
+    <select id="GetCase" parameterType="net.ptnetwork.court.domain.LawCase" resultType="net.ptnetwork.court.domain.LawCase">
+        select * from ct_law_case;
+    </select>
+
+    <select id="QueryCase" parameterType="net.ptnetwork.court.domain.LawCase" resultType="net.ptnetwork.court.domain.LawCase">
+        select * from ct_law_case where case_no like concat('%',#{caseNo},'%');
+    </select>
+
+    <select id="SelectCase" parameterType="net.ptnetwork.court.domain.LawCase" resultType="net.ptnetwork.court.domain.LawCase">
+        select * from ct_law_case where case_no = #{caseNo};
+    </select>
+
+    <resultMap type="net.ptnetwork.court.domain.LawCase" id="LawCaseResult">
+        <result property="id" column="id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="deadline" column="deadline"/>
+        <result property="state" column="state"/>
+        <result property="series" column="series"/>
+        <result property="caseNo" column="case_no"/>
+        <result property="executiveBody" column="executive_body"/>
+        <result property="reason" column="reason"/>
+        <result property="takingDepartment" column="taking_department"/>
+        <result property="judge" column="judge"/>
+        <result property="presidingJudge" column="presiding_judge"/>
+        <result property="assistantJudge" column="assistant_judge"/>
+        <result property="clerk" column="clerk"/>
+        <result property="fullcourtMember" column="fullcourt_member"/>
+        <result property="caseInvolve" column="case_involve"/>
+        <result property="receiveDate" column="receive_date"/>
+        <result property="filingDate" column="filing_date"/>
+        <result property="filingPeople" column="filing_people"/>
+        <result property="objectApplication" column="object_application"/>
+        <result property="estImpCosts" column="est_imp_costs"/>
+        <result property="pointsTime" column="points_time"/>
+        <result property="hearingDate" column="hearing_date"/>
+        <result property="closeDueDate" column="close_due_date"/>
+        <result property="closeDate" column="close_date"/>
+        <result property="fillingDate" column="filling_date"/>
+        <result property="closeType" column="close_type"/>
+        <result property="closeFor" column="close_for"/>
+        <result property="desCloseMethod" column="des_close_method"/>
+        <result property="executeDay" column="execute_day"/>
+        <result property="naturalExecutionDay" column="natural_execution_day"/>
+        <result property="finalMark" column="final_mark"/>
+        <result property="amountPlace" column="amount_place"/>
+        <result property="caseSource" column="case_source"/>
+        <result property="registerDepartment" column="register_department"/>
+        <result property="legalTime" column="legal_time"/>
+        <result property="excLegalDay" column="exc_legal_day"/>
+        <result property="originalCourt" column="original_court"/>
+        <result property="originalCaseNo" column="original_case_no"/>
+        <result property="executionDependDocNo" column="execution_depend_doc_no"/>
+        <result property="executionDependEffDate" column="execution_depend_eff_date"/>
+        <result property="executionDependKind" column="execution_depend_kind"/>
+        <result property="field1" column="field1"/>
+        <result property="field2" column="field2"/>
+    </resultMap>
+
+
+</mapper>

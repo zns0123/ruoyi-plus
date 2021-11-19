@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.ptnetwork.court.mapper.SignatureMapper">
+
+    <select id="GetSignature" parameterType="net.ptnetwork.court.domain.Signature" resultType="net.ptnetwork.court.domain.Signature">
+        select * from ct_signature;
+    </select>
+
+    <select id="SelectSignature" parameterType="net.ptnetwork.court.domain.Signature" resultType="net.ptnetwork.court.domain.Signature">
+        select * from ct_signature where id = #{id};
+    </select>
+
+    <resultMap type="net.ptnetwork.court.domain.Signature" id="SignatureResult">
+        <result property="id" column="id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="caseNo" column="case_no"/>
+        <result property="docName" column="doc_name"/>
+        <result property="docSource" column="doc_source"/>
+        <result property="docType" column="doc_type"/>
+        <result property="linkedTogether" column="linked_together"/>
+        <result property="applicationTime" column="application_time"/>
+        <result property="proposer" column="proposer"/>
+        <result property="status" column="status"/>
+        <result property="signatureDocNum" column="signature_doc_num"/>
+        <result property="field1" column="field1"/>
+        <result property="field2" column="field2"/>
+    </resultMap>
+
+
+</mapper>

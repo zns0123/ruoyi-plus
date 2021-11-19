@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.ptnetwork.court.mapper.SynergyMapper">
+
+    <select id="GetSynergy" parameterType="net.ptnetwork.court.domain.Synergy" resultType="net.ptnetwork.court.domain.Synergy">
+        select * from ct_synergy;
+    </select>
+
+    <select id="QuerySynergy" parameterType="net.ptnetwork.court.domain.Synergy" resultType="net.ptnetwork.court.domain.Synergy">
+        select * from ct_synergy where case_no like concat('%',#{caseNo},'%');
+    </select>
+
+    <select id="SelectSynergy" parameterType="net.ptnetwork.court.domain.Synergy" resultType="net.ptnetwork.court.domain.Synergy">
+        select * from ct_synergy where id = #{id};
+    </select>
+
+    <select id="WaitSynergy" parameterType="net.ptnetwork.court.domain.Synergy" resultType="net.ptnetwork.court.domain.Synergy">
+        select * from ct_synergy where state = #{state};
+    </select>
+
+    <resultMap type="net.ptnetwork.court.domain.Synergy" id="SynergyResult">
+        <result property="id" column="id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="caseNo" column="case_no"/>
+        <result property="synergyType" column="synergy_type"/>
+        <result property="synergyUnit" column="synergy_unit"/>
+        <result property="startingTime" column="starting_time"/>
+        <result property="initiator" column="initiator"/>
+        <result property="sponsoredUnit" column="sponsored_unit"/>
+        <result property="state" column="state"/>
+        <result property="residualMaturity" column="residual_maturity"/>
+        <result property="field1" column="field1"/>
+        <result property="field2" column="field2"/>
+    </resultMap>
+
+
+</mapper>

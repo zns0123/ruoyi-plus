@@ -1,0 +1,106 @@
+2021-11-08 13:56:23 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 13:56:24 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 13:56:32 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 13:56:35 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 14:06:16 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 14:06:17 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 14:06:19 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 14:06:20 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 14:13:20 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 14:13:21 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 14:13:23 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 14:13:25 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 14:17:13 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 14:17:13 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 14:17:19 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 14:17:20 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 14:34:05 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 14:34:06 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 14:34:08 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 14:34:10 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 14:40:56 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 14:40:56 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 14:40:59 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 14:41:01 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 14:42:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 14:42:41 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 14:42:43 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 14:42:44 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 14:44:36 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 14:44:37 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 14:44:39 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 14:44:40 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 14:48:04 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 14:48:05 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 14:48:07 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 14:48:08 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 14:52:31 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 14:52:32 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 14:52:34 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 14:52:35 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 15:02:01 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 15:02:01 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 15:02:03 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 15:02:05 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 15:03:02 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 15:03:03 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 15:03:05 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 15:03:06 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 15:05:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 15:05:45 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 15:05:47 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 15:05:48 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 15:09:03 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 15:09:04 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 15:09:06 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 15:09:08 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 15:12:26 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 15:12:27 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 15:12:29 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 15:12:31 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 15:12:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 15:12:45 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 15:12:47 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 15:12:49 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-08 15:15:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.22.Final
+2021-11-08 15:15:46 [main] INFO  net.ptnetwork.RuoYiApplication - The following profiles are active: dev
+2021-11-08 15:15:48 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-11-08 15:15:51 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-08 15:15:54 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-11-08 15:15:54 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-11-08 15:15:56 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-11-08 15:15:56 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-08 15:15:56 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2021-11-08 15:15:57 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'WQ-20170516CMGX1636355756929'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-08 15:15:57 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+2021-11-08 15:15:57 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2021-11-08 15:15:57 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@590f806a
+2021-11-08 15:16:00 [main] INFO  s.d.s.w.WebMvcPropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-11-08 15:16:00 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-08 15:16:00 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-08 15:16:03 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Documentation plugins bootstrapped
+2021-11-08 15:16:03 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-08 15:16:03 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-08 15:16:04 [main] INFO  io.undertow - starting server: Undertow - 2.0.33.Final
+2021-11-08 15:16:04 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2021-11-08 15:16:04 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2021-11-08 15:16:04 [main] INFO  net.ptnetwork.RuoYiApplication - Started RuoYiApplication in 19.145 seconds (JVM running for 20.824)
+2021-11-08 15:16:04 [RMI TCP Connection(5)-192.168.87.232] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-08 15:16:05 [Quartz Scheduler [RuoyiScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1636355756929 started.
+2021-11-08 15:16:06 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 41d915798b15
+2021-11-08 17:47:19 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1636355756929 paused.
+2021-11-08 17:47:21 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1636355756929 shutting down.
+2021-11-08 17:47:21 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1636355756929 paused.
+2021-11-08 17:47:21 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler RuoyiScheduler_$_WQ-20170516CMGX1636355756929 shutdown complete.
+2021-11-08 17:47:21 [SpringContextShutdownHook] INFO  sys-user - ====关闭后台任务任务线程池====
+2021-11-08 17:47:21 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-08 17:47:21 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-08 17:47:21 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-08 17:47:21 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.33.Final
